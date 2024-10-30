@@ -1,0 +1,52 @@
+/* App.css */
+
+.section {
+  padding: 4rem 2rem;
+  margin: 1rem 0;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #333;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.navbar-links,
+.navbar-auth {
+  display: flex;
+}
+
+.nav-button,
+.auth-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.nav-button:hover,
+.auth-button:hover {
+  color: #ffd700;
+}
+
+.register-button {
+  color: #4caf50;
+}
+
+.register-button:hover {
+  color: #388e3c;
+}
