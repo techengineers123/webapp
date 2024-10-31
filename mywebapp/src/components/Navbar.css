@@ -6,19 +6,21 @@
   padding: 1rem 2rem;
   color: white;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  height: 4rem;
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #f4f4f4;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #ffd700;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .navbar-links a {
   margin: 0 1rem;
   text-decoration: none;
   color: #f4f4f4;
-  font-size: 1rem;
+  font-size: 1.3rem;
   transition: color 0.3s ease;
 }
 
@@ -28,26 +30,7 @@
   font-weight: bold;
 }
 
-.navbar-auth .auth-button {
-  margin-left: 1rem;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  font-size: 1rem;
-  color: white;
-  background-color: #007bff;
-  text-decoration: none;
-  transition: background-color 0.3s ease;
-}
-
-.navbar-auth .register-button {
-  background-color: #28a745;
-}
-
-.navbar-auth .auth-button:hover {
-  background-color: #0056b3;
-}
-
-.navbar-auth .register-button:hover {
-  background-color: #218838;
-  color: #ffd700;
+.navbar-logo:hover {
+  color: #51ff00;
+  font-size: 3rem;
 }
